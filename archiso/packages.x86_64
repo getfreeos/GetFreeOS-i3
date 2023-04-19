@@ -162,9 +162,9 @@ xf86-video-vmware
 mesa
 
 ###hardware video support
-#nvidia-dkms
-#nvidia-utils
-#nvidia-settings
+nvidia-dkms
+nvidia-utils
+nvidia-settings
 #mesa-utils
 
 ###base-devel
@@ -626,17 +626,17 @@ xfce4-taskmanager
 #xfce4-panel-profiles
 
 #######################################################
-###            Build for zen only                   ###
+###                 Build for                       ###
 #######################################################
 
 #######################################
 # hardened or zen
 #linux-hardened
 #linux-hardened-headers
-#linux
-#linux-headers
-linux-zen
-linux-zen-headers
+linux
+linux-headers
+#linux-zen
+#linux-zen-headers
 #######################################
 
 #######################################################
