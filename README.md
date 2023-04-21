@@ -5,9 +5,9 @@ Build GetFreeOS i3
 
 ##
 ```ruby
-git clone https://github.com/waelisa/GetFreeOS-plasma.git
+git clone https://github.com/waelisa/GetFreeOS-i3.git
 
-cd GetFreeOS-plasma
+cd GetFreeOS-i3
 
 ./GetFreeOS-build-the-iso.sh
 ```
