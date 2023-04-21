@@ -191,21 +191,21 @@ gst-plugins-good
 gst-plugins-ugly
 gstreamer
 libdvdcss
-pulseaudio
-pulseaudio-alsa
+#pulseaudio
+#pulseaudio-alsa
 pavucontrol
 
 #wireplumber
-#pipewire-media-session
-#pipewire-pulse
-#pipewire-jack
+pipewire-media-session
+pipewire-pulse
+pipewire-jack
 
 ###bluetooth
 blueberry
 bluez
 bluez-libs
 bluez-utils
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 
 ###network
 avahi
