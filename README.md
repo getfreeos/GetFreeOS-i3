@@ -5,7 +5,7 @@ Build GetFreeOS i3
 
 ##
 ```ruby
-git clone https://github.com/waelisa/GetFreeOS-i3.git
+git clone https://github.com/getfreeos/GetFreeOS-i3.git
 
 cd GetFreeOS-i3
 
