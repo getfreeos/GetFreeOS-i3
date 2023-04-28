@@ -9,7 +9,7 @@ git clone https://github.com/getfreeos/GetFreeOS-i3.git
 
 cd GetFreeOS-i3
 
-./GetFreeOS-build-the-iso.sh
+sudo ./GetFreeOS-build-the-iso.sh
 ```
 ##
 
