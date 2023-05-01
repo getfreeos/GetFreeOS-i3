@@ -110,6 +110,7 @@ squashfs-tools
 sudo
 syslinux
 #systemd-resolvconf
+arcolinux-systemd-services-git
 tcpdump
 terminus-font
 testdisk
@@ -479,6 +480,8 @@ yad
 
 getfreeos-calamares
 getfreeos-calamares-config-i3
+getfreeos-i3-installer
+getfreeos-logo
 xterm
 
 ###########################################################################
@@ -727,6 +730,7 @@ nyrna
 vkbasalt
 steamtinkerlaunch
 reshade-shaders-git
+goverlay
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
@@ -735,6 +739,7 @@ autorandr
 chaotic-mirrorlist
 chaotic-keyring
 #gedit
+geany
 #######################################################
 ###                      END                        ###
 #######################################################
