@@ -482,6 +482,7 @@ getfreeos-calamares
 getfreeos-calamares-config-i3
 getfreeos-i3-installer
 getfreeos-logo
+getfreeos-grub-theme-git
 xterm
 
 ###########################################################################
