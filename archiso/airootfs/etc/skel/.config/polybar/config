@@ -121,9 +121,10 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = i3 xwindow
-modules-center = kernel
-modules-right = memory2 cpu2 date
+modules-left = date xkeyboard
+#modules-center = kernel
+modules-center = i3 xwindow
+modules-right = memory2 cpu2
 
 separator = |
 
@@ -2212,7 +2213,7 @@ format-underline = #0084FF
 [module/jgmenu]
 type = custom/script
 interval = 120
-exec = echo "ArcoLinux"
+exec = echo "GetFreeOS"
 click-left = "jgmenu_run >/dev/null 2>&1 &"
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
