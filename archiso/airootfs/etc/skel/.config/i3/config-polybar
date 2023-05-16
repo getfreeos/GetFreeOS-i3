@@ -1,3 +1,7 @@
+# to start the install app - reome this line after install the OS
+exec_always getfreeos-i3-app
+########################################
+
 ################# Start of all the settings
 
 # KEY DEFINITIONS TO REMEMBER
@@ -407,6 +411,7 @@ exec --no-startup-id feh --bg-fill ~/.config/i3/bg/bg.jpg &
 exec --no-startup-id feh --bg-fill ~/.config/i3/bg/bg.jpg &
 
 # Polybar
+exec_always --no-startup-id chmod 755 ~/.config/polybar/launch.sh &
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
 
 ################# system applications       
