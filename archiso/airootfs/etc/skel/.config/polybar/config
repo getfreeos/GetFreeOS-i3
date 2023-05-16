@@ -122,10 +122,13 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = i3 xwindow
+
+#modules-left = xworkspaces xwindow
 #modules-center = kernel
-modules-center = weather
-modules-right = xkeyboard memory2 cpu2 date
+#modules-center = weather
+modules-left = i3 xwindow
+modules-center = date2 weather2 time2
+modules-right = xkeyboard memory2 cpu2
 
 separator = |
 
@@ -2029,8 +2032,8 @@ type = internal/date
 interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = " %Y-%m-%d%"
-date-alt = " %d-%m-%Y"
+date = " %d-%m-%Y"
+date-alt = " %Y-%m-%d%"
 time = %H:%M
 time-alt = %H:%M
 format-prefix = " "
@@ -2042,6 +2045,40 @@ label = %date% %time%
 
 #################################################################
 
+[module/date2]
+;https://github.com/jaagr/polybar/wiki/Module:-date
+type = internal/date
+; Seconds to sleep between updates
+interval = 5
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = " %a %d-%m-%Y"
+date-alt = " %a %d-%b-%y%"
+format-prefix = " "
+format-prefix-foreground = #c1941a
+format-underline = #c1941a
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+label = %date%
+
+#################################################################
+[module/time2]
+;https://github.com/jaagr/polybar/wiki/Module:-date
+type = internal/date
+; Seconds to sleep between updates
+interval = 5
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+time = %r
+time-alt = %H:%M
+format-prefix = " "
+format-prefix-foreground = #7e52c6
+format-underline = #7e52c6
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+label = %time%
+
+#################################################################
 [module/discord]
 type = custom/script
 exec = echo " Discord "
@@ -2643,6 +2680,20 @@ format-underline = #3EC13F
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 exec = python -u ~/.config/polybar/scripts/weather.py
+tail = true
+
+#################################################################################
+
+[module/weather2]
+type = custom/script
+interval = 10
+format = <label>
+format-prefix = " "
+format-prefix-foreground = #3EC13F
+format-underline = #3EC13F
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+exec = python -u ~/.config/polybar/scripts/weather2.py
 tail = true
 
 #################################################################################
