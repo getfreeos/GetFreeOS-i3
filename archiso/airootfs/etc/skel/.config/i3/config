@@ -1,5 +1,5 @@
 # to start the install app - reome this line after install the OS
-exec_always getfreeos-i3-installer
+exec_always getfreeos-i3-app
 ########################################
 
 ################# Start of all the settings
