@@ -122,12 +122,18 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-
+# Old
 #modules-left = xworkspaces xwindow
 #modules-center = kernel
 #modules-center = weather
-modules-left = i3 xwindow
-modules-center = date2 weather2 time2
+
+# Left
+#modules-left = i3 xwindow
+#modules-center = date2 time2 weather2
+
+# Mid
+modules-left = date2 time2 weather2
+modules-center = i3 xwindow
 modules-right = xkeyboard memory2 cpu2
 
 separator = |
@@ -1680,16 +1686,26 @@ fuzzy-match = false
 ;http://fontawesome.io/cheatsheet/
 ;       v     
 
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
+#ws-icon-0 = 1;
+#ws-icon-1 = 2;
+#ws-icon-2 = 3;
+#ws-icon-3 = 4;
+#ws-icon-4 = 5;
+#ws-icon-5 = 6;
+#ws-icon-6 = 7;
+#ws-icon-7 = 8;
+#ws-icon-8 = 9;
+#ws-icon-9 = 10;
+#ws-icon-0 = 1;
+#ws-icon-1 = 2;
+#ws-icon-2 = 3;
+#ws-icon-3 = 4;
+#ws-icon-4 = 5;
+#ws-icon-5 = 6;
+#ws-icon-6 = 7;
+#ws-icon-7 = 8;
+#ws-icon-8 = 9;
+#ws-icon-9 = 10;
 ws-icon-default = " "
 
 ; Available tags:
@@ -1859,6 +1875,7 @@ format-background = ${colors.background}
 format-prefix-foreground = #7D49B6
 format-prefix-underline = #7D49B6
 format-underline = #7D49B6
+
 ################################################################################
 
 [module/backlight]
@@ -2800,7 +2817,7 @@ format-background = ${colors.background}
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-prefix-background = ${colors.background}
 format-prefix-underline = #3ecfb2

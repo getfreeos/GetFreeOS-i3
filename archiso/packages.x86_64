@@ -54,7 +54,7 @@ less
 #lftp
 libfido2
 libusb-compat
-linux
+#linux
 linux-atm
 linux-firmware
 linux-firmware-qlogic
@@ -192,21 +192,24 @@ gst-plugins-good
 gst-plugins-ugly
 gstreamer
 libdvdcss
-pulseaudio
-pulseaudio-alsa
-pavucontrol
+#pulseaudio
+#pulseaudio-alsa
+#pavucontrol
 
-#wireplumber
 #pipewire-media-session
-#pipewire-pulse
-#pipewire-jack
+wireplumber
+pipewire
+libwireplumber
+gst-plugin-pipewire
+pipewire-pulse
+pipewire-jack
 
 ###bluetooth
 blueberry
 bluez
 bluez-libs
 bluez-utils
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 
 ###network
 avahi
@@ -731,6 +734,7 @@ nyrna
 vkbasalt
 steamtinkerlaunch
 reshade-shaders-git
+mangohud-git
 goverlay
 ###########################################################################
 #                                ISO SPECIFIC
