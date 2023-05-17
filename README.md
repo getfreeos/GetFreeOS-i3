@@ -2,7 +2,7 @@
 Build GetFreeOS i3
 
 i3
-![Screenshot.](https://getfreeos.com/wp-content/uploads/2023/05/Screenshot.jpg)
+![Screenshot.](https://getfreeos.com/wp-content/uploads/2023/04/GetFreeOS-2023-04-13-1681419306_screenshot_1920x1080.jpg)
 
 polybar
 ![Screenshot.](https://getfreeos.com/wp-content/uploads/2023/05/polybar.jpg)
