@@ -132,7 +132,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 #modules-center = date2 time2 weather2
 
 # Mid
-modules-left = date2 time2 weather2
+modules-left = date2 time2
 modules-center = i3 xwindow
 modules-right = xkeyboard memory2 cpu2
 
