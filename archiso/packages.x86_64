@@ -163,12 +163,12 @@ xf86-input-libinput
 #xf86-video-vesa
 xf86-video-vmware
 mesa
+mesa-utils
 
 ###hardware video support
 nvidia-dkms
 nvidia-utils
 nvidia-settings
-#mesa-utils
 
 ###base-devel
 base-devel
@@ -684,10 +684,11 @@ librewolf
 yay
 paru
 htop
+noto-fonts-emoji
 #######################################################
 ###                 For gaming                      ###
 #######################################################
-steam
+#steam
 lutris
 python-magic
 gamemode
