@@ -2070,7 +2070,7 @@ interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = " %a %d-%m-%Y"
-date-alt = " %a %d-%b-%y%"
+date-alt = " %A %d-%B-%Y%"
 format-prefix = " "
 format-prefix-foreground = #c1941a
 format-underline = #c1941a
