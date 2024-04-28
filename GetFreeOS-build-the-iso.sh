@@ -222,17 +222,17 @@ echo
 	echo "########################"
 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
 
-#echo
-#echo "##################################################################"
-#tput setaf 2
-#echo "Phase 9 :"
-#echo "- Making sure we start with a clean slate next time"
-#tput sgr0
-#echo "################################################################## "
-#echo
+echo
+echo "##################################################################"
+tput setaf 2
+echo "Phase 9 :"
+echo "- Making sure we start with a clean slate next time"
+tput sgr0
+echo "################################################################## "
+echo
 
-	#echo "Deleting the build folder if one exists - takes some time"
-	#[ -d $buildFolder ] && sudo rm -rf $buildFolder
+	echo "Deleting the build folder if one exists - takes some time"
+	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 
 echo
 echo "##################################################################"

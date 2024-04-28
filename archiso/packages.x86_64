@@ -483,8 +483,10 @@ yad
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-getfreeos-calamares
+#getfreeos-calamares
+arco-calamares
 getfreeos-calamares-config-i3-zen
+#getfreeos-calamares-config-dev
 getfreeos-i3-installer
 getfreeos-logo
 getfreeos-grub-theme-git
